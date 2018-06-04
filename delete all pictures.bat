@@ -15,8 +15,8 @@ echo #          You won't be able to restore your pictures!          #
 echo #                                                               #
 echo #################################################################
 PAUSE
-DEL /s C:\workspace\crops\*.png
-DEL /s C:\workspace\crops\*.jpg
+DEL /s %cd%\*.png
+DEL /s %cd%\*.jpg
 echo #################################################################
 echo #                                                               #
 echo #                         JOB DONE                              #
